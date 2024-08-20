@@ -1,6 +1,6 @@
 # To-Do
 
-To-Do is a simple Android application that helps you make to-do lists with the ability to add a description for each task. Also, you can add subtasks if needed. To edit/add new subtasks, you just press once on the task. The application can follow your device theme automatically, and you can choose between dark and light mode manually too.
+To-Do is a simple Android application that helps you make to-do lists with the ability to add a description for each task. Also, you can add subtasks if needed. To edit/add new subtasks, you just press once on the task. The application can follow your device theme automatically, and you can choose between dark and light mode manually too. You can reorder tasks by holding and move them up or down.
 
 The application is made with Material You design in mind, which means it supports dynamic color and a themed icon. Also, it supports the predictive back gesture.
 
