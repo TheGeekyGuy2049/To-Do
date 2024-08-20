@@ -1,16 +1,14 @@
-# mockup
+# To-Do
 
-A new Flutter project.
+To-Do is a simple Android application that helps you make to-do lists with the ability to add a description for each task. Also, you can add subtasks if needed. To edit/add new subtasks, you just press once on the task. The application can follow your device theme automatically, and you can choose to turn dark mode on and off manually too.
 
-## Getting Started
+The application is made with Material You design in mind, which means it supports dynamic color and a themed icon. Also, it supports the predictive back gesture.
 
-This project is a starting point for a Flutter application.
+Disclaimer: dynamic color and the themed icon are only supported on Android 12+, while the predictive back gesture is only supported on Android 13+.
 
-A few resources to get you started if this is your first Flutter project:
+![GitHub all releases](https://img.shields.io/github/downloads/TheGeekyGuy2049/To-Do/total?color=green)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![GitHub followers](https://img.shields.io/github/followers/TheGeekyGuy2049)
+
+
