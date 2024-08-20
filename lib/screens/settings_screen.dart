@@ -24,6 +24,7 @@ class SettingsScreen extends StatelessWidget {
                 value: themeProvider.followSystemTheme,
                 onChanged: (value) {
                   themeProvider.toggleFollowSystemTheme(value);
+                  print('Follow Device Theme changed: $value');
                 },
                 secondary: const Icon(Icons.smartphone),
               ),
@@ -34,6 +35,7 @@ class SettingsScreen extends StatelessWidget {
                     ? null // Disable toggle if following system theme
                     : (value) {
                   themeProvider.toggleTheme();
+                  print('Dark Mode: $value');
                 },
                 secondary: const Icon(Icons.dark_mode),
               ),

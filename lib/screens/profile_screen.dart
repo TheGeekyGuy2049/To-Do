@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:redirect_icon/redirect_icon.dart';
 
@@ -21,9 +20,7 @@ class ProfileScreen extends StatelessWidget {
                 child: GestureDetector(
                   onDoubleTap: () {
                     {
-                      Fluttertoast.showToast(
-                          msg: 'Mr. Robot is hacking your smartphone right now.'
-                      );
+                      const SnackBar(content: Text('Mr. Robot is hacking your smartphone right now.'));
                     }
                   },
                   child: const CircleAvatar(

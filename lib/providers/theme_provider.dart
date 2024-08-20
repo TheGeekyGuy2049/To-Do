@@ -39,14 +39,17 @@ class ThemeProvider with ChangeNotifier {
   void setDynamicColorSchemes(ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
     _lightDynamicColorScheme = lightDynamic;
     _darkDynamicColorScheme = darkDynamic;
-    notifyListeners();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      notifyListeners();
+    });
   }
+
 
   Future<void> _loadPreferences() async {
     final prefs = await SharedPreferences.getInstance();
     _isDarkMode = prefs.getBool('isDarkMode') ?? false;
     _followSystemTheme = prefs.getBool('followSystemTheme') ?? true;
-    notifyListeners();
   }
 
   Future<void> _savePreferences() async {
